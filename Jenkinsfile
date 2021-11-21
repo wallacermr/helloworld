@@ -3,7 +3,9 @@ pipeline {
 
     stages {
         stage('Clean') {
-            sh 'mvn clean'
+            steps {
+                sh "mvn clean"
+            }
         }
     }
 }
