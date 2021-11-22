@@ -17,8 +17,8 @@
 	<name>hellomessage</name>
 	
 	<scm>
-		<connection>scm:git:https://gschram@bitbucket.org/cbssmobile/platform-connector-renda-presumida.git</connection>
-		<developerConnection>scm:git:https://gschram@bitbucket.org/cbssmobile/platform-connector-renda-presumida.git</developerConnection>
+		<connection>scm:git:https://wallacermr@git.org/wallacermr/helloworld.git</connection>
+		<developerConnection>scm:git:https://wallacermr@git.org/wallacermr/helloworld.git</developerConnection>
 		<url>https://github.com/wallacermr/helloworld.git</url>
 		<tag>HEAD</tag>
 	</scm> 
