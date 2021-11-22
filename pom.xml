@@ -19,7 +19,7 @@
 	<scm>
 		<connection>scm:git:https://gschram@bitbucket.org/cbssmobile/platform-connector-renda-presumida.git</connection>
 		<developerConnection>scm:git:https://gschram@bitbucket.org/cbssmobile/platform-connector-renda-presumida.git</developerConnection>
-		<url>https://bitbucket.org/cbssmobile/platform-connector-renda-presumida.git</url>
+		<url>https://github.com/wallacermr/helloworld.git</url>
 		<tag>HEAD</tag>
 	</scm> 
 
