@@ -11,5 +11,10 @@ pipeline {
                 sh './mvnw clean package -DskipTests'
             }
         }
+        stage ('Deploy') {
+            steps {
+                sh './mvnw spring-boot:run &'
+            }
+        }
     }
 }
