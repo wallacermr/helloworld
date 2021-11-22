@@ -15,9 +15,17 @@
 	<artifactId>hellomessage</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>hellomessage</name>
+	
+	<scm>
+		<connection>scm:git:https://gschram@bitbucket.org/cbssmobile/platform-connector-renda-presumida.git</connection>
+		<developerConnection>scm:git:https://gschram@bitbucket.org/cbssmobile/platform-connector-renda-presumida.git</developerConnection>
+		<url>https://bitbucket.org/cbssmobile/platform-connector-renda-presumida.git</url>
+		<tag>HEAD</tag>
+	</scm> 
 
 	<properties>
 		<java.version>11</java.version>
+		<maven.scm.plugin.version>1.11.2</maven.scm.plugin.version>
 	</properties>
 
 	<dependencies>
@@ -39,6 +47,14 @@
 
 	<build>
 		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-scm-plugin</artifactId>
+				<version>${maven.scm.plugin.version}</version>
+				<configuration>
+					<connectionType>connection</connectionType>
+				</configuration>
+			</plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
