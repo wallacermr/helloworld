@@ -17,9 +17,9 @@
 	<name>hellomessage</name>
 	
 	<scm>
-		<connection>scm:git:https://wallacermr@git.org/wallacermr/helloworld.git</connection>
-		<developerConnection>scm:git:https://wallacermr@git.org/wallacermr/helloworld.git</developerConnection>
-		<url>https://github.com/wallacermr/helloworld.git</url>
+		<connection>scm:git:git@github.com:wallacermr/helloworld.git</connection>
+		<developerConnection>scm:git:git@github.com:wallacermr/helloworld.git</developerConnection>
+		<url>git@github.com:wallacermr/helloworld.git</url>
 		<tag>HEAD</tag>
 	</scm> 
 

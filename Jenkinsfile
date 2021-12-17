@@ -13,7 +13,7 @@ pipeline {
         }
         stage ('Version') {
             steps {
-                sh './mvnw -B -Darguments=-DskipTests=true -Dmaven.javadoc.skip=true -Dmaven.javadoc.skip=true -Dmaven.test.skipTests=true -Dmaven.test.skip=true release:clean release:prepare'
+                sh './mvnw -B -Darguments=-DskipTests=true -Dmaven.javadoc.skip=true -Dmaven.test.skipTests=true -Dmaven.test.skip=true release:clean release:prepare'
             }
         }
         stage ('Upload Repo') {
